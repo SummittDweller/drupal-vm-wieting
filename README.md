@@ -1,4 +1,4 @@
-ansible-playbook -vvvv -b -K -i examples/prod/inventory examples/prod/bootstrap/init.yml -e "ansible_ssh_user=mark" 
+ansible-playbook -vvvv -b -K -i prod/inventory prod/bootstrap/init.yml -e "ansible_ssh_user=mark" 
 
 ![Drupal VM Logo](https://raw.githubusercontent.com/geerlingguy/drupal-vm/master/docs/images/drupal-vm-logo.png)
 
